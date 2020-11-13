@@ -14,4 +14,15 @@ form.login {
   margin-left: 10px;
 }
 
+#container-overlap {
+  color: white;
+  position: absolute;
+  top: 0;
+  left:0;
+  z-index:1;
+  bottom:0;
+  right:0;
+  height:100%;
+}
+
 @charset "UTF-8"
