@@ -15,7 +15,7 @@ $(document).ready(function() {
     //load saved profiles 
     $.get("/api/boxSim").then(function(data) {
         //update name of dropdown, also give an attribute for the profileID
-        console.log(data);
+        // console.log(data);
         data.forEach(profile => {
             profiles.append($('<a class="dropdown-item" data-index="'+profile.id+'"href="#">'+profile.name+'</a>'));
         });
@@ -82,8 +82,9 @@ let camera, scene, renderer;
 function main(){
     //create canvas and renderer for animation
     const canvas = document.querySelector('#animation');
+    const pixelRatio = window.devicePixelRatio;
     renderer = new THREE.WebGLRenderer({canvas},{antialias:true});
-    renderer.setSize( window.innerWidth/2, window.innerHeight/2 );
+    renderer.setSize( canvas.width*pixelRatio, canvas.height*pixelRatio);
     renderer.setAnimationLoop(render);
     renderer.setPixelRatio(window.devicePixelRatio);
 

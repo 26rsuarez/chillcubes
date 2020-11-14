@@ -3,6 +3,21 @@ form.login {
   margin-top: 50px;
 }
 
+.background {
+  background-image: linear-gradient(to bottom, grey, black);
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.container {
+  color: white;
+}
+
 #animation {
   width: 100%;
   height: 100%;
