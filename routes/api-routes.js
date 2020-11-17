@@ -64,7 +64,7 @@ module.exports = function(app) {
           UserId: req.user.id
         }
       }).then(function(data){
-        console.log(data);
+        // console.log(data);
         res.json(data);
       });
     }
@@ -81,7 +81,7 @@ module.exports = function(app) {
           id: req.params.id
         }
       }).then(function(data){
-        console.log(data);
+        // console.log(data);
         res.json(data);
       });
     }

@@ -3,19 +3,8 @@ form.login {
   margin-top: 50px;
 }
 
-.background {
-  background-image: linear-gradient(to bottom, grey, black);
-  position: fixed; 
-  top: 0; 
-  left: 0; 
-
-  /* Preserve aspet ratio */
-  min-width: 100%;
-  min-height: 100%;
-}
-
-.container {
-  color: white;
+nav {
+  font-family: 'Gruppo', cursive;
 }
 
 #animation {
@@ -38,6 +27,14 @@ form.login {
   bottom:0;
   right:0;
   height:100%;
+}
+
+#blocker {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
 
 @charset "UTF-8"
