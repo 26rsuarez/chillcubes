@@ -23,7 +23,7 @@ If you want to run this locally, make sure you have node and mysql installed. Cl
 
 ## Usage Instructions
 
-This application is deployed at 
+This application is deployed at https://chillcubes.herokuapp.com
 
 
 
