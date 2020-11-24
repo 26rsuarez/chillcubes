@@ -25,8 +25,9 @@ If you want to run this locally, make sure you have node and mysql installed. Cl
 
 This application is deployed at https://chillcubes.herokuapp.com
 
-
-
+A default login is 
+username: hello@hello.com
+password: hello
 
 
 ## License
